@@ -5,6 +5,7 @@ import Home              from '../home/Home';
 import Coupons           from '../coupons/Coupons';
 import Gallery           from '../gallery/Gallery';
 import Contact           from '../contact/Contact';
+import PageNotFound      from '../page_not_found/PageNotFound';
 
 import s                 from './app.style';
 
