@@ -1,7 +1,8 @@
-import React from 'react';
+import React     from 'react';
 import PropTypes from 'prop-types';
-import { Code } from '../styles/style';
-import s from '../styles/pageNotFound.style';
+
+import { Code }  from '../style';
+import s         from './pageNotFound.style';
 
 const propTypes = {
   location: PropTypes.object.isRequired,
