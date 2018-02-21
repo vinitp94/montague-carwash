@@ -1,6 +1,8 @@
-#root {
-  display: flex;
-  justify-content: center;
+@import "base/colors.scss";
+@import "base/fonts.scss";
+@import "base/reset.scss";
 
-  color: blue;
-}
+@import "components/contact.scss";
+@import "components/coupons.scss";
+@import "components/gallery.scss";
+@import "components/home.scss";

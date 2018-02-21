@@ -24,12 +24,5 @@ module.exports = {
       },
     ],
   },
-  // plugins: process.argv.indexOf('-p') === -1 ? [] : [
-  //   new webpack.optimize.UglifyJsPlugin({ output: { comments: false } }),
-  //   new ExtractTextPlugin({ filename: 'styles.css', allChunks: true })
-  // ],
-  plugins: [
-    // new webpack.optimize.UglifyJsPlugin({ output: { comments: false } }),
-    new ExtractTextPlugin({ filename: 'styles.css', allChunks: true })
-  ]
+  plugins: [ new ExtractTextPlugin({ filename: 'styles.css', allChunks: true }) ]
 };
