@@ -1,8 +1,8 @@
 import React from 'react';
 
-export default function Home() {
+export default function Coupons() {
   return (
-    <div>
+    <div className="coupons">
       Coupons Page
     </div>
   );

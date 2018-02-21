@@ -7,10 +7,9 @@ const propTypes = {
 
 export default function PageNotFound({ location }) {
   return (
-    <p>
-      Page not found - the path,
-      did not match any React Router routes.
-    </p>
+    <div className="page-not-found">
+      Page not found
+    </div>
   );
 }
 
