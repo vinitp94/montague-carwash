@@ -1,17 +1,15 @@
 import React             from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import Home              from '../home/Home';
-import Coupons           from '../coupons/Coupons';
-import Gallery           from '../gallery/Gallery';
-import Contact           from '../contact/Contact';
-import PageNotFound      from '../page_not_found/PageNotFound';
-
-import s                 from './app.style';
+import Home              from './components/Home';
+import Coupons           from './components/Coupons';
+import Gallery           from './components/Gallery';
+import Contact           from './components/Contact';
+import PageNotFound      from './components/PageNotFound';
 
 export default function App() {
   return (
-    <div style={s.root}>
+    <div>
       <Switch>
         <Route exact path="/"  component={ Home } />
         <Route path="/coupons" component={ Coupons } />
