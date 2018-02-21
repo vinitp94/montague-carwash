@@ -9,14 +9,12 @@ import PageNotFound      from './components/PageNotFound';
 
 export default function App() {
   return (
-    <div>
-      <Switch>
-        <Route exact path="/"  component={ Home } />
-        <Route path="/coupons" component={ Coupons } />
-        <Route path="/gallery" component={ Gallery } />
-        <Route path="/contact" component={ Contact } />
-        <Route component={ PageNotFound } />
-      </Switch>
-    </div>
+    <Switch>
+      <Route exact path="/"  component={ Home } />
+      <Route path="/coupons" component={ Coupons } />
+      <Route path="/gallery" component={ Gallery } />
+      <Route path="/contact" component={ Contact } />
+      <Route component={ PageNotFound } />
+    </Switch>
   );
 }
