@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Gallery() {
   return (
-    <div className="gallery">
+    <div className="mv-gallery">
       Gallery Page
     </div>
   );

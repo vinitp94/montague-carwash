@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function PageNotFound() {
   return (
-    <div className="page-not-found">
+    <div className="mv-page-not-found">
       Page not found
     </div>
   );
