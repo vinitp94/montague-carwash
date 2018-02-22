@@ -1,12 +1,12 @@
 .mv-footer {
   display: flex;
+  justify-content: center;
   align-items: center;
   right: 0; bottom: 0; left: 0;
   height: 50px;
   background: #3a383a;
 
   .label {
-    margin-left: 25px;
     color: white;
     font-weight: 300;
   }

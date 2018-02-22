@@ -6,7 +6,7 @@ import Footer from '../building-blocks/footer';
 export default function Gallery() {
   return (
     <div className="mv-gallery">
-      <Header></Header>
+      <Header activePage={'gallery'}></Header>
 
       <div className="main">
         Gallery

@@ -6,7 +6,7 @@ import Footer from '../building-blocks/footer';
 export default function Home() {
   return (
     <div className="mv-home">
-      <Header></Header>
+      <Header activePage={'home'}></Header>
 
       <div className="main">
         Home

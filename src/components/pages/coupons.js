@@ -6,7 +6,7 @@ import Footer from '../building-blocks/footer';
 export default function Coupons() {
   return (
     <div className="mv-coupons">
-      <Header></Header>
+      <Header activePage={'coupons'}></Header>
 
       <div className="main">
         Coupons
