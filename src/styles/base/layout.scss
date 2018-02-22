@@ -8,8 +8,16 @@ html, body, div, span, a, p, ul, li, h1, code, nav {
   text-align: inherit;
   color: inherit;
   background: transparent;
+  font-size: 12px;
+  font-family: 'Oxygen', sans-serif;
 }
 
 html, body { height: 100%; }
 
 body { overflow-x: hidden; }
+
+.mv-contact, .mv-coupons, .mv-gallery, .mv-home {
+  .main {
+    min-height: calc(100vh - 200px);
+  }
+}

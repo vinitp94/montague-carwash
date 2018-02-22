@@ -1,8 +1,10 @@
 @import "base/colors.scss";
-@import "base/fonts.scss";
-@import "base/reset.scss";
+@import "base/layout.scss";
 
 @import "components/pages/contact.scss";
 @import "components/pages/coupons.scss";
 @import "components/pages/gallery.scss";
 @import "components/pages/home.scss";
+
+@import "components/building-blocks/footer.scss";
+@import "components/building-blocks/header.scss";
