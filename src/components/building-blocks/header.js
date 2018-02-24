@@ -1,18 +1,18 @@
-import React from 'react';
+import React    from 'react';
 import { Link } from 'react-router-dom';
 
 export default function Header(props) {
 
   function applySelectedClass(page) {
-    if (page === props.activePage) {
-      return 'selected';
-    }
+    if (page === props.activePage) {  return 'selected'; }
   }
 
   return (
     <div className="mv-header">
       <div className="header-container">
-        <img className="header-logo" src="src/assets/valero-logo.png" alt="Logo" />
+        <Link className="header-logo" to={'/'}>
+          <img src="src/assets/valero-logo.png" alt="Logo" />
+        </Link>
 
         <div className="nav">
           <Link className={ applySelectedClass('home') } to={'/'}>Home</Link>

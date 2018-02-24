@@ -19,5 +19,10 @@ body { overflow-x: hidden; }
 .mv-contact, .mv-coupons, .mv-gallery, .mv-home {
   .main {
     min-height: calc(100vh - 190px);
+    width: 70vw;
+    min-width: 800px;
+    margin: auto;
+    padding: 0 50px;
+    box-sizing: border-box;
   }
 }
