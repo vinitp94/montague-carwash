@@ -11,7 +11,7 @@ export default function Header(props) {
     <div className="mv-header">
       <div className="header-container">
         <Link className="header-logo" to={'/'}>
-          <img src="src/assets/valero-logo.png" alt="Logo" />
+          <img src="src/assets/icons/valero-logo.png" alt="Logo" />
         </Link>
 
         <div className="nav">

@@ -9,7 +9,17 @@ export default function Gallery() {
       <Header activePage={'gallery'}></Header>
 
       <div className="main">
-        Gallery
+        <div className="image-container">
+          <img src="src/assets/images/placeholder-1.jpg" alt="Img" />
+          <img src="src/assets/images/placeholder-2.jpg" alt="Img" />
+          <img src="src/assets/images/placeholder-3.jpg" alt="Img" />
+          <img src="src/assets/images/placeholder-4.jpg" alt="Img" />
+          <img src="src/assets/images/placeholder-9.jpg" alt="Img" />
+          <img src="src/assets/images/placeholder-6.jpg" alt="Img" />
+          <img src="src/assets/images/placeholder-5.jpg" alt="Img" />
+          <img src="src/assets/images/placeholder-7.jpg" alt="Img" />
+          <img src="src/assets/images/placeholder-8.jpg" alt="Img" />
+        </div>
       </div>
 
       <Footer></Footer>

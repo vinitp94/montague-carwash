@@ -22,8 +22,7 @@ export default function Home() {
         </div>
 
         <div className="punch-line">
-          We invite you to visit us and feel the difference that only a
-          hand car wash can deliver...
+          We invite you to visit us and feel the difference that only a hand car wash can deliver...
         </div>
       </div>
 
