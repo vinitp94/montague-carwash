@@ -20,9 +20,11 @@ body { overflow-x: hidden; }
   .main {
     min-height: calc(100vh - 190px);
     width: 72vw;
+    max-width: 1200px;
     min-width: 800px;
     margin: auto;
     padding: 0 50px;
     box-sizing: border-box;
+    color: $dark-grey;
   }
 }

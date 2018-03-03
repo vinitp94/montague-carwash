@@ -1,3 +1,57 @@
 .mv-contact > .main {
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  > * {
+    border: 1px solid $lighter-grey;
+    border-top: 2px solid $main;
+  }
+
+  .map-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 46%;
+
+    > img { width: 100%; }
+  }
+
+  .info-container {
+    width: 51%;
+    font-size: 13px;
+
+    .header {
+      display: inline-block;
+      padding: 14px 60px 12px 20px;
+      margin-bottom: 2px;
+      border-bottom: 2px solid $accent;
+      text-transform: uppercase;
+    }
+
+    .content {
+      padding: 12px 20px;
+      font-weight: 100;
+      color: $light-grey;
+    }
+
+    .hours {
+      .sub-title {
+        display: inline-block;
+        padding: 10px 20px;
+        border-bottom: 1px solid $main;
+      }
+
+      .content {
+        display: flex;
+        padding-left: 35px;
+
+        .label {
+          width: 70px;
+          font-weight: 500;
+          color: $medium-grey;
+        }
+      }
+    }
+  }
 }
