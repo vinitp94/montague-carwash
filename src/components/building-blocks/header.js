@@ -15,9 +15,9 @@ export default function Header(props) {
         </Link>
 
         <div className="nav">
-          <Link className={ applySelectedClass('home') } to={'/'}>Home</Link>
+          <Link className={ applySelectedClass('home') }    to={'/'}>Home</Link>
           <Link className={ applySelectedClass('gallery') } to={'/gallery'}>Gallery</Link>
-          <Link className={ applySelectedClass('coupons') } to={'/coupons'}>Coupons</Link>
+          <Link className={ applySelectedClass('deals') }   to={'/deals'}>Deals</Link>
           <Link className={ applySelectedClass('contact') } to={'/contact'}>Contact</Link>
         </div>
       </div>
