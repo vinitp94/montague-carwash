@@ -9,10 +9,6 @@ export default function Contact() {
       <Header activePage={'contact'}></Header>
 
       <div className="main">
-        <div className="map-container">
-          <img src="src/assets/images/map-screenshot.png" alt="Map" />
-        </div>
-
         <div className="info-container">
           <div className="contact-us">
             <div className="header">Contact Us</div>
@@ -21,7 +17,7 @@ export default function Contact() {
 
           <div className="location">
             <div className="header">Location</div>
-            <div className="content">1298 Montague Exp Way, San Jose, CA - 95131</div>
+            <div className="content">1298 Montague Expy, San Jose, CA 95131</div>
           </div>
 
           <div className="hours">
@@ -55,6 +51,10 @@ export default function Contact() {
               </div>
             </div>
           </div>
+        </div>
+
+        <div className="map-container">
+          <img src="src/assets/images/map-screenshot.png" alt="Map" />
         </div>
       </div>
 

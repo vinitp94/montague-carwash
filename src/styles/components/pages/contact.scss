@@ -4,6 +4,7 @@
   align-items: center;
 
   > * {
+    border-radius: 2px;
     border: 1px solid $lighter-grey;
     border-top: 2px solid $main;
   }
