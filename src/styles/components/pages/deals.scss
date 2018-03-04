@@ -13,10 +13,6 @@
     align-items: flex-start;
   }
 
-  .full-detail-container { margin-bottom: 40px; }
-  
-  .full-detail-unit { width: 100%; }
-
   .standard-unit, .mini-detail-unit, .full-detail-unit {
     border-radius: 2px;
     width: 32%;
@@ -46,4 +42,8 @@
       color: $accent;
     }
   }
+
+  .full-detail-container { margin-bottom: 40px; }
+  
+  .full-detail-unit { width: 100%; }
 }
