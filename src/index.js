@@ -10,13 +10,12 @@ import PageNotFound from './components/pages/page-not-found';
 
 import './styles/main.scss';
 
+// <Route path="/gallery" component={ Gallery } />
 ReactDOM.render(
-  // <BrowserRouter basename="/montague-carwash">
   <BrowserRouter basename="/">
     <Switch>
       <Route exact path="/"  component={ Home } />
       <Route path="/deals"   component={ Deals } />
-      <Route path="/gallery" component={ Gallery } />
       <Route path="/contact" component={ Contact } />
       <Route component={ PageNotFound } />
     </Switch>

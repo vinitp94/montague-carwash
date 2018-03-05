@@ -7,6 +7,7 @@ export default function Header(props) {
     if (page === props.activePage) {  return 'selected'; }
   }
 
+  // <Link className={ applySelectedClass('gallery') } to={'/gallery'}>Gallery</Link>
   return (
     <div className="mv-header">
       <div className="header-container">
@@ -16,7 +17,6 @@ export default function Header(props) {
 
         <div className="nav">
           <Link className={ applySelectedClass('home') }    to={'/'}>Home</Link>
-          <Link className={ applySelectedClass('gallery') } to={'/gallery'}>Gallery</Link>
           <Link className={ applySelectedClass('deals') }   to={'/deals'}>Deals</Link>
           <Link className={ applySelectedClass('contact') } to={'/contact'}>Contact</Link>
         </div>
