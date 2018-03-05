@@ -17,7 +17,11 @@ export default function Contact() {
 
           <div className="location">
             <div className="header">Location</div>
-            <div className="content">1298 Montague Expy, San Jose, CA 95131</div>
+            <div className="content">
+              <div>1298 Montague Expy, San Jose, CA 95131</div>
+              <div>|</div>
+              <a target="_blank" href="https://www.google.com/maps/place/1298+Montague+Expy,+San+Jose,+CA+95131/@37.4038723,-121.9074296,17z/data=!3m1!4b1!4m5!3m4!1s0x808fc94dafc26555:0xe250a22bdbfafafc!8m2!3d37.4038681!4d-121.9052409">Directions</a>
+            </div>
           </div>
 
           <div className="hours">

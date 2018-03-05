@@ -38,6 +38,19 @@
       color: $light-grey;
     }
 
+    .location {
+      .content {
+        display: flex;
+
+        > * { margin-right: 10px; }
+
+        a {
+          color: blue;
+          text-decoration: underline;
+        }
+      }
+    }
+
     .hours {
       .sub-title {
         display: inline-block;
