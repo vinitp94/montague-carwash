@@ -1,6 +1,6 @@
 .mv-deals {
   border-bottom: 1px solid $main;
-  
+
   .header {
     margin-top: 30px;
     text-align: center;
@@ -46,4 +46,18 @@
   }
 
   .full-detail-container { margin-bottom: 40px; }
+}
+
+@media screen and (max-width: 600px) {
+  .mv-deals {
+    .header {
+      margin-top: 50px;
+      font-size: 18px;
+    }
+
+    .standard-unit, .mini-detail-unit, .full-detail-unit {
+      width: 100%;
+      margin-top: 30px;
+    }
+  }
 }

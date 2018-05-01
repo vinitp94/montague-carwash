@@ -12,3 +12,7 @@
     font-weight: 300;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .mv-footer { min-width: 0; }
+}
