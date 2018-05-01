@@ -8,7 +8,7 @@ class Header extends React.Component {
     $(document).scroll(() => {
       var scrollTop = $(document).scrollTop();
       
-      if (scrollTop < 420) {
+      if (scrollTop < 410) {
         $('.welcome').addClass('selected');
         $('.deals').removeClass('selected');
         $('.contact').removeClass('selected');
