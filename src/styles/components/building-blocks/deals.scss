@@ -19,7 +19,7 @@
     border-radius: 2px;
     width: 32%;
     margin-top: 20px;
-    border: 1px solid $light-grey;
+    box-shadow: 0px 0px 10px $light-grey;
     overflow: hidden;
 
     .name {

@@ -21,11 +21,17 @@ class Header extends React.Component {
         $('.welcome').removeClass('selected');
         $('.deals').removeClass('selected');
       }
+      
+      if (scrollTop < 250) {
+        var percent = scrollTop / 250;
+        
+        $('.mv-header').height(140 - (70 * percent));
+      }
     });
   }
   
-  scrollToPosition(targetElementClass) {
-    var positionToScroll = $('.' + targetElementClass).offset().top - 140;
+  scrollToPosition(targetElement) {
+    var positionToScroll = $('.' + targetElementClass).offset().top - 100;
     
     window.scroll({
       top: positionToScroll,
@@ -43,9 +49,9 @@ class Header extends React.Component {
           </div>
 
           <div className="nav">
-            <div className="welcome" onClick={ this.scrollToPosition.bind(this, 'mv-welcome') }>Home</div>
-            <div className="deals" onClick={ this.scrollToPosition.bind(this, 'mv-deals') }>Deals</div>
-            <div className="contact" onClick={ this.scrollToPosition.bind(this, 'mv-contact') }>Contact</div>
+            <div className="welcome" onClick={ this.scrollToPosition.bind(this, 'welcome') }>Home</div>
+            <div className="deals" onClick={ this.scrollToPosition.bind(this, 'deals') }>Deals</div>
+            <div className="contact" onClick={ this.scrollToPosition.bind(this, 'contact') }>Contact</div>
           </div>
         </div>
       </div>
