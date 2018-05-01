@@ -72,3 +72,14 @@
     }
   }
 }
+
+@media screen and (max-width: 600px) {
+  .mv-contact {
+    display: block;
+
+    .info-container, .map-container {
+      width: 100%;
+      min-width: 0;
+    }
+  }
+}

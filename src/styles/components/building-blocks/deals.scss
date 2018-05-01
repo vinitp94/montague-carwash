@@ -50,6 +50,8 @@
 
 @media screen and (max-width: 600px) {
   .mv-deals {
+    border-bottom: 1px solid $lighter-grey;
+    
     .header {
       margin-top: 50px;
       font-size: 18px;
