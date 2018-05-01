@@ -1,13 +1,8 @@
 import React from 'react';
 
-import Header from '../building-blocks/header';
-import Footer from '../building-blocks/footer';
-
 export default function Contact() {
   return (
     <div className="mv-contact">
-      <Header activePage={'contact'}></Header>
-
       <div className="main">
         <div className="info-container">
           <div className="contact-us">
@@ -61,8 +56,6 @@ export default function Contact() {
           <img src="src/assets/images/map-screenshot.png" alt="Map" />
         </div>
       </div>
-
-      <Footer></Footer>
     </div>
   );
 }

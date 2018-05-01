@@ -7,7 +7,6 @@ export default function Header(props) {
     if (page === props.activePage) {  return 'selected'; }
   }
 
-  // <Link className={ applySelectedClass('gallery') } to={'/gallery'}>Gallery</Link>
   return (
     <div className="mv-header">
       <div className="header-container">
