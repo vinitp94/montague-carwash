@@ -51,11 +51,15 @@
 @media screen and (max-width: 600px) {
   .mv-deals {
     border-bottom: 1px solid $lighter-grey;
-    
+
     .header {
       margin-top: 50px;
       font-size: 18px;
+
+      &.standard { margin-top: 0; }
     }
+
+    .full-detail-container { margin-bottom: 0; }
 
     .standard-unit, .mini-detail-unit, .full-detail-unit {
       width: 100%;

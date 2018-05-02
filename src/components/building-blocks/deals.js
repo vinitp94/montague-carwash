@@ -1,9 +1,10 @@
 import React from 'react';
+import ClassNames from 'classnames';
 
 export default function Deals() {
   return (
     <div className="mv-deals">
-      <div className="header">Standard Services</div>
+      <div className={ ClassNames({ "header": true, "standard": true }) }>Standard Services</div>
 
       <div className="standard-container">
         <div className="standard-unit">

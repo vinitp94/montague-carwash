@@ -80,6 +80,11 @@
     .info-container, .map-container {
       width: 100%;
       min-width: 0;
+      margin: 0;
+    }
+
+    .info-container {
+      margin-bottom: 30px;
     }
   }
 }
