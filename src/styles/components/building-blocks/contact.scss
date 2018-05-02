@@ -44,10 +44,12 @@
 
         > * { margin-right: 10px; }
 
-        a {
+        .text-link {
           color: blue;
           text-decoration: underline;
         }
+
+        .icon-link { display: none; }
       }
     }
 
@@ -85,6 +87,26 @@
 
     .info-container {
       margin-bottom: 30px;
+
+      .location {
+        .content {
+          .pipe-separator, .text-link { display: none; }
+
+          .icon-link {
+            display: block;
+            margin-left: 10px;
+
+            img { width: auto; height: 10px; }
+          }
+        }
+      }
+
+      .hours {
+        .content {
+          .label { width: 30%; }
+          .info { width: 70%; }
+        }
+      }
     }
   }
 }
