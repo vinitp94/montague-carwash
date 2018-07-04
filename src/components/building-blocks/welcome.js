@@ -18,6 +18,10 @@ export default function Home() {
       <div className="punch-line">
         We invite you to visit us and feel the difference that only a hand car wash can deliver...
       </div>
+
+      <div className="holiday">
+        *** We will be closed for the 4th of July! Happy Independence Day! ***
+      </div>
     </div>
   );
 }
