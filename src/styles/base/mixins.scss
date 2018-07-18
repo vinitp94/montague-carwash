@@ -1,0 +1,11 @@
+@mixin fade-on-scroll() {
+  transition: all 1s;
+  position: relative;
+  top: 60px;
+  opacity: 0;
+
+  &.visible {
+    top: 0;
+    opacity: 1;
+  }
+}

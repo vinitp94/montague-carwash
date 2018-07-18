@@ -4,6 +4,7 @@
   align-items: center;
 
   > * {
+    @include fade-on-scroll();
     margin: 30px 0;
     border-radius: 2px;
     border-top: 2px solid $main;
