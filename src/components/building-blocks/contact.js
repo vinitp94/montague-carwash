@@ -29,8 +29,13 @@ export default function Contact() {
             <div className="sub-title">Car Wash:</div>
 
             <div className="content">
-              <div className="label">All Week:</div>
-              <div className="info">8:00 AM - 5:00 PM</div>
+              <div className="label">Mon-Thurs:</div>
+              <div className="info">9:00 AM - 6:00 PM</div>
+            </div>
+
+            <div className="content">
+              <div className="label">Fri-Sun:</div>
+              <div className="info">8:00 AM - 6:00 PM</div>
             </div>
           </div>
 
